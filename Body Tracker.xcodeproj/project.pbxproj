@@ -12,6 +12,7 @@
 		4E15066F2BEE1CB900A8A7FF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E15066E2BEE1CB900A8A7FF /* DashboardView.swift */; };
 		4E1506712BEE1CBA00A8A7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1506702BEE1CBA00A8A7FF /* Assets.xcassets */; };
 		4E1506742BEE1CBA00A8A7FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1506732BEE1CBA00A8A7FF /* Preview Assets.xcassets */; };
+		4ECB4DC72BEF586700ACBA0F /* HealthKitPermissionPrimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB4DC62BEF586700ACBA0F /* HealthKitPermissionPrimingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4E15066E2BEE1CB900A8A7FF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		4E1506702BEE1CBA00A8A7FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E1506732BEE1CBA00A8A7FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ECB4DC62BEF586700ACBA0F /* HealthKitPermissionPrimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionPrimingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				4E15066C2BEE1CB900A8A7FF /* Body_TrackerApp.swift */,
 				4E15066E2BEE1CB900A8A7FF /* DashboardView.swift */,
+				4ECB4DC62BEF586700ACBA0F /* HealthKitPermissionPrimingView.swift */,
 				4E0CA2192BEE4D7D00CBF2F4 /* HealthDataListView.swift */,
 				4E1506702BEE1CBA00A8A7FF /* Assets.xcassets */,
 				4E1506722BEE1CBA00A8A7FF /* Preview Content */,
@@ -143,6 +146,7 @@
 				4E0CA21A2BEE4D7D00CBF2F4 /* HealthDataListView.swift in Sources */,
 				4E15066F2BEE1CB900A8A7FF /* DashboardView.swift in Sources */,
 				4E15066D2BEE1CB900A8A7FF /* Body_TrackerApp.swift in Sources */,
+				4ECB4DC72BEF586700ACBA0F /* HealthKitPermissionPrimingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
