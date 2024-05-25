@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Body_TrackerApp: App {
+    
+    let hkManager = HealthKitManager()
+    
     var body: some Scene {
         WindowGroup {
             DashboardView()
+                .environment(hkManager)
         }
     }
 }
