@@ -42,10 +42,6 @@ import Observation
             
         }
         
-//        for steps in stepCounts.statistics() {
-//            print(steps.sumQuantity() ?? 0)
-//        }
-        
     }
     
     func fetchWeights() async {
