@@ -70,6 +70,7 @@ struct DashboardView: View {
             }
             .padding()
             .task {
+//                await hkManager.addSimulatorData()
                 await hkManager.fetchStepCount()
                 isShowingPermissionPrimingScreen = !hasSeenPermissionPriming
             }
