@@ -18,6 +18,7 @@
 		4E9FFFC52C0468FC000E341F /* ChartDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9FFFC42C0468FC000E341F /* ChartDataTypes.swift */; };
 		4E9FFFC82C0469B6000E341F /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9FFFC72C0469B6000E341F /* Date+Ext.swift */; };
 		4E9FFFCB2C046D9A000E341F /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4E9FFFCA2C046D9A000E341F /* Algorithms */; };
+		4E9FFFCD2C047323000E341F /* StepPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9FFFCC2C047323000E341F /* StepPieChart.swift */; };
 		4ECB4DC72BEF586700ACBA0F /* HealthKitPermissionPrimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB4DC62BEF586700ACBA0F /* HealthKitPermissionPrimingView.swift */; };
 		4ECB4DCA2BEF5E6000ACBA0F /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB4DC92BEF5E6000ACBA0F /* HealthKitManager.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		4E9FFFC22C046865000E341F /* ChartMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartMath.swift; sourceTree = "<group>"; };
 		4E9FFFC42C0468FC000E341F /* ChartDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataTypes.swift; sourceTree = "<group>"; };
 		4E9FFFC72C0469B6000E341F /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		4E9FFFCC2C047323000E341F /* StepPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPieChart.swift; sourceTree = "<group>"; };
 		4ECB4DC62BEF586700ACBA0F /* HealthKitPermissionPrimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionPrimingView.swift; sourceTree = "<group>"; };
 		4ECB4DC82BEF5CF500ACBA0F /* Body Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Body Tracker.entitlements"; sourceTree = "<group>"; };
 		4ECB4DC92BEF5E6000ACBA0F /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				4E9FFFBC2C03B01E000E341F /* StepBarChart.swift */,
 				4E9FFFC22C046865000E341F /* ChartMath.swift */,
 				4E9FFFC42C0468FC000E341F /* ChartDataTypes.swift */,
+				4E9FFFCC2C047323000E341F /* StepPieChart.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				4E9FFFC32C046865000E341F /* ChartMath.swift in Sources */,
 				4E6C4C532C020129007FE0E3 /* HealthMetric.swift in Sources */,
 				4E9FFFC52C0468FC000E341F /* ChartDataTypes.swift in Sources */,
+				4E9FFFCD2C047323000E341F /* StepPieChart.swift in Sources */,
 				4E9FFFC82C0469B6000E341F /* Date+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
