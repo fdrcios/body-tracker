@@ -36,19 +36,8 @@ struct ChartMath {
             diffValues.append((date: date, value: value))
         }
         
-        for value in diffValues {
-            print("\(value.date), \(value.value)")
-        }
-        
         let sortedByWeekday = diffValues.sorted { $0.date.weekdayInt < $1.date.weekdayInt }
         let weekdayArray = sortedByWeekday.chunked { $0.date.weekdayInt == $1.date.weekdayInt }
-        
-        for array in weekdayArray {
-            print("-----")
-            for day in array {
-                print("\(day.date.weekdayInt), \(day.value)")
-            }
-        }
         
         var weekdayChartData: [WeekdayChartData] = []
         
